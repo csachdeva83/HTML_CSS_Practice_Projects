@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrapper{
+    /* background-color: pink; */
+    height: 700px;
+    margin: 0 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.left{
+    /* background-color: brown; */
+    width: 360px;
+    height: 500px;
+    margin-right: 40px;
+}
+
+.heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.Data{
+    padding-right: 40px;
+    line-height: 1.7;
+    margin-bottom: 50px;
+}
+
+.Details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    /* background-color: blue; */
+    width: 360px;
+}
+
+.number{
+    margin-right: 15px;
+    font-size: 0.9rem;
+}
+
+.left_email{
+    font-size: 0.9rem;
+}
+
+.right{
+    /* background-color: goldenrod; */
+    width: 530px;
+    height: 500px;
+}
+
+.personal_details{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.name{
+    border: 3px solid #D5D5D5;
+    background-color: white;
+    width: 250px;
+    margin-right: 30px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.right_email{
+    border: 3px solid #D5D5D5;
+    background-color: white;
+    width: 250px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.fab{
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.details_icon{
+    padding-right: 1px;
+}
+
+textarea{
+    width: 531px;
+    height: 335px;
+    border-radius: 5px;
+    border: 3px solid #D5D5D5;
+}
+
+::placeholder {
+    color: black;
+    font-size: 1rem;
+}
+  
+textarea::placeholder {
+    color: black;
+    font-size: 1rem;
+    padding: 4px 0 0 9px;
+}
+
+.send{
+    margin-top: 12px;
+    border: 3px solid #9A9483;
+    background-color: white;
+    width: 531px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.send:hover{
+    background-color: #9A9483;
+    color: white;
+}
