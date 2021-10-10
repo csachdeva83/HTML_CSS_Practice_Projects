@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #DBD0C0;
+}
+
+.wrapper{
+    background-color: white;
+    margin: 106px 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    background-color: violet;
+    height: 430px;
+}
+
+.lower{
+    background-color: #EDEDED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-weight: bold;
+}
+
+a:link{
+    margin-left: 5px;
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:black;
+}
+
+.left{
+    background-color: yellow;
+    width: 510.905px;
+    height: 430px;
+}
+
+.heading{
+    background-color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+
+.username{
+    background-color: white;
+    padding-left: 70px;
+    margin-bottom: 20px;
+}
+
+.userName{
+    width: 360px;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    border-radius: 2px;
+    border:3px solid #E5DCC3;
+}
+
+input::placeholder {
+    padding: 4px 0 0 9px;
+    font-size: 15px;
+}    
+
+.password{
+    background-color: white;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+
+.signedIn{
+    background-color: white;
+    padding-left: 66px;
+    margin-bottom: 30px;
+}
+
+.logIn{
+    background-color: red;
+    margin-left: 70px;
+    width: 360px;
+    height: 50px;
+    border-radius: 2px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
