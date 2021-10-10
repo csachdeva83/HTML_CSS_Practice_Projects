@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #DBD0C0;
+    background-color: #C8C6C6;
 }
 
 .wrapper{
@@ -17,7 +17,7 @@ body{
 }
 
 .upper{
-    background-color: violet;
+    /* background-color: violet; */
     height: 430px;
     display: flex;
 }
@@ -42,13 +42,13 @@ a:visited{
 }
 
 .left{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 510.905px;
     height: 430px;
 }
 
 .heading{
-    background-color: white;
+    /* background-color: white; */
     font-size: 2rem;
     font-weight: bold;
     padding-top: 50px;
@@ -58,7 +58,7 @@ a:visited{
 }
 
 .username{
-    background-color: white;
+    /* background-color: white; */
     padding-left: 70px;
     margin-bottom: 20px;
 }
@@ -69,22 +69,23 @@ a:visited{
     display: flex;
     align-content: center;
     border-radius: 2px;
-    border:3px solid #E5DCC3;
+    border:3px solid #EDEDED;
 }
 
 input::placeholder {
     padding: 4px 0 0 9px;
     font-size: 15px;
+    color: #DBD0C0;
 }    
 
 .password{
-    background-color: white;
+    /* background-color: white; */
     padding-left: 70px;
     margin-bottom: 30px;
 }
 
 .signedIn{
-    background-color: white;
+    /* background-color: white; */
     padding-left: 66px;
     margin-bottom: 30px;
 }
@@ -104,14 +105,14 @@ input::placeholder {
 }
 
 .right{
-    background-color: rosybrown;
+    /* background-color: rosybrown; */
     width: 510.905px;
     height: 430px;
-    border-left: 3px solid yellowgreen;
+    border-left: 3px solid #C8C6C6;
 }
 
 .data{
-    background-color: white;
+    /* background-color: white; */
     font-weight: 500;
     padding-top: 60px;
     padding-left: 70px;
