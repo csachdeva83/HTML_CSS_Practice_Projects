@@ -10,8 +10,8 @@ body{
 
 .wrapper{
     background-color: yellow;
-    margin: 80px 70px;
-    height: 570px;
+    margin: 65px 70px;
+    height: 600px;
     display: flex;
     flex-direction: column;
 }
@@ -47,7 +47,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .prices{
@@ -60,7 +60,7 @@ body{
     background-color: white;
     margin-right: 10px;
     width: 300px;
-    height: 420px;
+    height: 500px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -82,11 +82,9 @@ body{
     background-color: yellowgreen;
     display: flex;
     justify-content: center;
-    /* align-items: center;     */
-    /* height: 105px; */
     padding-bottom: 15px;
     border-bottom: 3px solid pink;
-    /* margin-bottom: 15px; */
+    margin: 0 25px;
 }
 
 .dollar{
@@ -107,11 +105,14 @@ body{
 .info1{
     background-color: yellowgreen;
     padding: 10px 0;
+    margin: 0 25px;
     margin-top: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
+    
 }
 
 .info{
@@ -121,4 +122,50 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    margin: 0 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.info2{
+    background-color: yellowgreen;
+    padding: 10px 0;
+    margin: 0 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+    border-bottom: 3px solid pink;
+}
+
+.trial{
+    background-color: yellowgreen;
+    padding: 10px 0;
+    margin: 0 25px;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.getStarted{
+    border: 3px solid #7f6aa9;
+    margin: 0 25px;
+    border-radius: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #7f6aa9;
+}
+
+.personal:hover{
+    background-color: #7f6aa9;
 }
