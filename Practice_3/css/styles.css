@@ -82,8 +82,11 @@ body{
     background-color: yellowgreen;
     display: flex;
     justify-content: center;
-    align-items: center;    
-    height: 40px;
+    /* align-items: center;     */
+    /* height: 105px; */
+    padding-bottom: 15px;
+    border-bottom: 3px solid pink;
+    /* margin-bottom: 15px; */
 }
 
 .dollar{
@@ -91,11 +94,31 @@ body{
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     margin-right: 2px;
+    margin-top: 5px;
 }
 
 .number{
     font-size: 2.5rem;
-    margin-top: 13px;
+    /* margin-top: 5px; */
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+}
+
+.info1{
+    background-color: yellowgreen;
+    padding: 10px 0;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.info{
+    background-color: yellowgreen;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
