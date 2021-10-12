@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: #f1f1f6;
+}
+
+.wrapper{
+    background-color: yellow;
+    margin: 80px 70px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin-left: 333px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragraph1{
+    background-color: turquoise;
+    margin-left: 80px;
+    width: 800px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph2{
+    background-color: turquoise;
+    margin-left: 80px;
+    width: 800px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.personal{
+    background-color: white;
+    margin-right: 10px;
+    width: 300px;
+    height: 420px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prices_heading{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.prices_price{
+    display: flex;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 40px;
+}
+
+.dollar{
+    font-weight:500;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 2px;
+}
+
+.number{
+    font-size: 2.5rem;
+    margin-top: 13px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
