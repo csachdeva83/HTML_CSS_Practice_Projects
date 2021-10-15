@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background-color: yellow;
+    width: 30%;
+    height: 90vh;
+    border-radius: 15px;
+}
+
+.display{
+    background-color: tomato;
+    margin: 10% 5% 20% 5%;
+    height: 13vh;
+}
+
+.buttons{
+    background-color: wheat;
+    margin: 10% 5% 10% 5%;
+    height: 60vh;
+}
+
+.b{
+    display: flex;
+    background-color: thistle;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.b1Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 4vh;
+    border-radius: 30%;
+    background-color: darkgray;
+}
+
+.b2Buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 7vh;
+    border-radius: 30%;
+    background-color: darkgray;
+}
