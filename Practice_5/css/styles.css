@@ -12,14 +12,32 @@ body{
 .wrapper{
     background-color: black;
     width: 30%;
-    height: 90vh;
+    height: 85vh;
     border-radius: 15px;
 }
 
 .display{
     background-color: tomato;
-    margin: 10% 5% 25% 5%;
+    margin: 10% 5% 20% 5%;
     height: 16vh;
+}
+
+.data{
+    background-color: rosybrown;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 1.12rem;
+    margin-bottom: 5%;
+}
+
+.result{
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    font-size: 2.5rem;
+    color: white;
 }
 
 .buttons{
@@ -45,6 +63,7 @@ body{
     border-radius: 30%;
     background-color: darkgray;
     cursor: pointer;
+    color: white;
 }
 
 .bButtons{
@@ -58,6 +77,11 @@ body{
     cursor: pointer;
     font-weight: bold;
     color: white;
+}
+
+.clear{
+    color: red;
+    background-color:  #865f5f;
 }
 
 .colour1{
