@@ -10,7 +10,7 @@ body{
 }
 
 .wrapper{
-    background-color: yellow;
+    background-color: black;
     width: 30%;
     height: 90vh;
     border-radius: 15px;
@@ -18,14 +18,14 @@ body{
 
 .display{
     background-color: tomato;
-    margin: 10% 5% 20% 5%;
-    height: 13vh;
+    margin: 10% 5% 25% 5%;
+    height: 16vh;
 }
 
 .buttons{
     background-color: wheat;
     margin: 10% 5% 10% 5%;
-    height: 60vh;
+    height: 50vh;
 }
 
 .b{
@@ -44,6 +44,7 @@ body{
     height: 4vh;
     border-radius: 30%;
     background-color: darkgray;
+    cursor: pointer;
 }
 
 .b2Buttons{
@@ -54,4 +55,18 @@ body{
     height: 7vh;
     border-radius: 30%;
     background-color: darkgray;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.zero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 7vh;
+    border-radius: 30%;
+    background-color: darkgray;
+    cursor: pointer;
+    font-weight: bold;    
 }
