@@ -18,13 +18,11 @@ body{
 }
 
 .display{
-    /* background-color: tomato; */
     margin: 10% 5% 20% 5%;
     height: 16vh;
 }
 
 .data{
-    /* background-color: rosybrown; */
     display: flex;
     align-items: center;
     justify-content: right;
@@ -34,7 +32,6 @@ body{
 }
 
 .result{
-    /* background-color: pink; */
     display: flex;
     align-items: center;
     justify-content: right;
@@ -43,42 +40,26 @@ body{
 }
 
 .buttons{
-    /* background-color: wheat; */
     margin: 10% 5% 10% 5%;
     height: 50vh;
 }
 
 .b{
     display: flex;
-    /* background-color: thistle; */
     align-items: center;
     justify-content: space-around;
     margin-bottom: 5%;
 }
 
-.b1Buttons{
+.button{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 15%;
-    height: 5vh;
     border-radius: 30%;
-    background-color: #192220;
-    cursor: pointer;
-    color: white;
-}
-
-.bButtons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 15%;
-    height: 7vh;
-    border-radius: 30%;
-    background-color: #192220;
     cursor: pointer;
     font-weight: bold;
     color: white;
+    background-color: #192220;    
 }
 
 .clear{
@@ -93,15 +74,18 @@ body{
 .colour2{
     background-color: greenyellow;
 }
-.zero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.frame1{
+    width: 15%;
+    height: 5vh;
+}
+
+.frame2{
+    width: 15%;
+    height: 7vh;
+}
+
+.frame3{
     width: 40%;
     height: 7vh;
-    border-radius: 30%;
-    background-color: #192220;
-    cursor: pointer;
-    font-weight: bold;
-    color: white;    
 }
