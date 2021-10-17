@@ -26,6 +26,7 @@ a{
 
 .left-right-section{
     display: flex;
+    margin-bottom: 32px;
 }
 
 .left-right-section .text{
@@ -41,16 +42,17 @@ a{
 
 .left-right-section .image{
     width: 50%;
-    height: 420px;
+    display: flex;
 }
 
 .left-right-section .image img{
-    height: 100%;
+    width: 100%;
 }
 
 .text h1, .text h3{
     margin: 0;
     font-weight: 400;
+    text-align: center;
 }
 
 .text h1{
@@ -75,4 +77,11 @@ a{
 .text .cta:hover{
     background-color: rgba(0,0,0,.06);
     color: rgba(0,0,0,.87);
+}
+
+.chill .text h1{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size: 50px;
+    letter-spacing: 8px;
 }
