@@ -8,3 +8,4 @@ Learnings:
 8) main contains wrapper and wrapper has sections
 9) sections have text contained in span
 10) 1 rem=16px and text align center
+11) flex-grow: 1 equals the div height
