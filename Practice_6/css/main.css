@@ -36,3 +36,12 @@ a{
     align-items: center;
     background-color: #f1f8f6;
 }
+
+.left-right-section .image{
+    width: 50%;
+    height: 420px;
+}
+
+.left-right-section .image img{
+    height: 100%;
+}
