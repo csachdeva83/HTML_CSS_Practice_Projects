@@ -8,6 +8,7 @@ a{
 }
 
 .announcements{
+    margin-bottom: 32px;
     background-color:  #d8e8e3;
     display: flex;
     justify-content: center;
@@ -21,4 +22,17 @@ a{
     font-size: 19px;
     line-height: 1.75;
     font-weight: 500;
+}
+
+.left-right-section{
+    display: flex;
+}
+
+.left-right-section .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f8f6;
 }
