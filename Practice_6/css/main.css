@@ -79,9 +79,44 @@ a{
     color: rgba(0,0,0,.87);
 }
 
+.chill .text{
+    background-color: #f2f0eb;
+}
+
 .chill .text h1{
     font-weight: 700;
     line-height: 1.2;
     font-size: 50px;
     letter-spacing: 8px;
+}
+
+.chill .text h3{
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+section{
+    display: flex;
+}
+
+.top-bottom-section{
+    width: 50%; 
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bottom-section .image{
+    width: 100%; 
+}
+
+.top-bottom-section .image img{
+    width: 100%;
+}
+
+.top-bottom-section .text{
+    display: flex;
+    flex-direction: column;
 }
