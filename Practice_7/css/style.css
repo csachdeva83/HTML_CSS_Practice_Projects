@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.wrapper{
+    background-color: yellow;
+    width: 60%;
+    height: 60vh;
+    margin: 13% 20%;
+}
+
+.icons{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.icon{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.main-container{
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+.links{
+    background-color: violet;
+}
