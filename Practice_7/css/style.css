@@ -48,3 +48,39 @@ body{
 .links a{
     color: white;
 }
+
+.main-container{
+    display: flex;
+}
+
+.profile{
+    width: 70%;
+    background-color: turquoise;
+}
+
+.profile-info{
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 15vh;
+    margin: 20% 30% 20% 10%;
+}
+
+.heading{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.profile-image{
+    height: 100%;
+}
+
+.domain{
+    color: #bebebe;
+}
+
+.profile-image img{
+    height: 100%;
+}
