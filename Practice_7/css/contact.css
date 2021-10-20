@@ -12,7 +12,7 @@ body{
 .wrapper{
     background-color: yellow;
     width: 60%;
-    height: 80vh;
+    height: 83vh;
     margin: 5% 20%;
 }
 
@@ -42,7 +42,7 @@ body{
 .main-container{
     background-color: white;
     margin-bottom: 50px;
-    height: 63vh;
+    height: 66vh;
 }
 
 .links{
@@ -78,7 +78,7 @@ body{
 .contact-container{
     background-color: pink;
     width: 90%;
-    height: 55vh;
+    height: 57vh;
     margin: 5% 5%;
 }
 
@@ -131,3 +131,16 @@ textarea{
 textarea::placeholder{
     padding-top: 13px;
 }
+
+.send-box{
+    margin-top: 20px;
+    color: white;
+    background-color: black ;
+    height: 7vh;
+    width: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
