@@ -12,14 +12,14 @@ body{
 }
 
 .wrapper{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 60%;
     height: 125vh;
     margin: 5% 20%;
 }
 
 .icons{
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@ body{
 
 .work-container{
     margin: 7% 5% 5% 5%;
-    background-color: wheat;
+    /* background-color: wheat; */
     width: 90%;
     
 }
@@ -77,7 +77,7 @@ body{
 }
 
 .data{
-    background-color: turquoise;
+    /* background-color: turquoise; */
     font-size: 1.25rem;
     line-height: 30px;
     margin-bottom: 30px;
