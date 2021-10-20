@@ -113,6 +113,8 @@ body{
 }
 
 .arrow-up{
+    position: relative;
+    left: 31%;
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -120,5 +122,4 @@ body{
     border-bottom: 25px solid white;
     font-size: 0;
     line-height: 0;
-    margin-left: 31%;
 }

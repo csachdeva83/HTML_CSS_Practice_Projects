@@ -12,8 +12,8 @@ body{
 .wrapper{
     background-color: yellow;
     width: 60%;
-    height: 60vh;
-    margin: 13% 20%;
+    height: 80vh;
+    margin: 5% 20%;
 }
 
 .icons{
@@ -31,6 +31,9 @@ body{
     cursor: pointer;
 }
 
+.mail{
+    color: white;
+}
 
 .icon:hover{
     color: white;
@@ -39,11 +42,11 @@ body{
 .main-container{
     background-color: white;
     margin-bottom: 50px;
-    height: 42.5vh;
+    height: 63vh;
 }
 
 .links{
-    /* background-color: violet; */
+    background-color: violet;
     height: 2.5vh;
     display: flex;
     justify-content: center;
@@ -60,7 +63,26 @@ body{
     display: flex;
 }
 
+
+.box{
+    position: absolute;
+    top: 45%;
+    right: 20.3%;
+    background-color: black;
+    color: white;
+    width: 5%;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .arrow-up{
+    position: relative;
+    left: 53%;
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -68,5 +90,11 @@ body{
     border-bottom: 25px solid white;
     font-size: 0;
     line-height: 0;
-    margin-left: 31%;
+}
+
+.contact-container{
+    background-color: cadetblue;
+    width: 90%;
+    height: 55vh;
+    margin: 5% 5%;
 }
