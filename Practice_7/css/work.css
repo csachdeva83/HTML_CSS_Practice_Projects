@@ -14,7 +14,7 @@ body{
 .wrapper{
     background-color: yellow;
     width: 60%;
-    height: 145vh;
+    height: 125vh;
     margin: 5% 20%;
 }
 
@@ -44,7 +44,7 @@ body{
 .main-container{
     background-color: white;
     margin-bottom: 50px;
-    height: 135vh;
+    height: 120vh;
     display: flex;
     box-shadow: -2px 9px 13px 6px rgba(110,104,104,0.35);
     -webkit-box-shadow: -2px 9px 13px 6px rgba(110,104,104,0.35);
@@ -95,3 +95,9 @@ body{
     width: 250px;
     height: 250px;
 }
+
+.box1{
+    background-image: url('pic01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
