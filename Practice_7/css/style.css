@@ -112,6 +112,11 @@ body{
     cursor: pointer;
 }
 
+.box a{
+    text-decoration: none;
+    color: white;
+}
+
 .arrow-up{
     position: relative;
     left: 31%;
