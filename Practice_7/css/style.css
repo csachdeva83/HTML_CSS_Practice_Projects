@@ -164,13 +164,13 @@ body{
 
     .arrow-up{
         position: relative;
-        left: 17.5%;
+        left: 18.5%;
     }
 
     .icon{
         margin-left: 1rem;
         margin-right: 1rem;
-        font-size: 40px;
+        font-size: 40px !important;
     }
 
     .box{

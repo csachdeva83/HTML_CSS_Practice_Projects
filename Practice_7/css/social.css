@@ -6,16 +6,14 @@
 
 body{
     background-image: url('bg.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 100% 50%;
+    background-size: cover;
 }
 
 .wrapper{
-    /* background-color: yellow;     */
+    /* background-color: yellow; */
     width: 60%;
-    height: 140vh;
-    margin: 5% 20%;
+    height: 60vh;
+    margin: 13% 20%;
 }
 
 .icons{
@@ -33,7 +31,7 @@ body{
     cursor: pointer;
 }
 
-.folder{
+.social{
     color: white;
 }
 
@@ -44,24 +42,39 @@ body{
 .main-container{
     background-color: white;
     margin-bottom: 50px;
-    height: 120vh;
-    display: flex;
-    box-shadow: -2px 9px 13px 6px rgba(110,104,104,0.35);
-    -webkit-box-shadow: -2px 9px 13px 6px rgba(110,104,104,0.35);
-    -moz-box-shadow: -2px 9px 13px 6px rgba(110,104,104,0.35);
+    height: 42.5vh;
 }
 
-.work-container{
-    margin: 7% 5% 5% 5%;
-    /* background-color: wheat; */
-    width: 90%;
-    height: 105vh;
+.links{
+    /* background-color: violet; */
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ececec;
     
+}
+
+.links a{
+    color: white;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .arrow-up{
     position: relative;
-    left: 42%;
+    left: 63.5%;
     width: 0;
     height: 0;
     border-left: 25px solid transparent;
@@ -71,24 +84,9 @@ body{
     line-height: 0;
 }
 
-.heading{
+.twitter-link a{
     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.data{
-    /* background-color: turquoise; */
-    font-size: 1.25rem;
-    line-height: 30px;
-    margin-bottom: 30px;
-}
-
-.row1,.row2,.row3,.row4{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 23px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 480px) {
@@ -102,20 +100,17 @@ body{
     .wrapper{
         width: 90%;
         margin: 5%;
-        /* margin-bottom: px; */
+        height: 67vh;
     }
 
     .main-container{
-        height: 291vh;
-    }
-
-    .work-container{
-        height: 280vh;
+        height: 50vh;
+        width: 100%;
     }
 
     .arrow-up{
         position: relative;
-        left: 35%;
+        left: 70.5%;
     }
 
     .icon{
@@ -124,12 +119,4 @@ body{
         font-size: 40px !important;
     }
 
-    .row1,.row2,.row3,.row4{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .row1 img,.row2 img,.row3 img,.row4 img{
-        margin-bottom: 10px;
-    }
 }
