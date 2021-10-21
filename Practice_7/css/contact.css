@@ -170,6 +170,7 @@ textarea::placeholder{
     .icon{
         margin-left: 1rem;
         margin-right: 1rem;
+        font-size: 40px;
     }
 
     .row-one{
