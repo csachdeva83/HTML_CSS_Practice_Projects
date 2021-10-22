@@ -14,3 +14,20 @@ body{
     background-color: white;
     border-radius: 30px;
 }
+
+.row-two{
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: yellow;
+    margin: 15px 5%;
+}
+
+.row-three{
+    background-color: yellow;
+    margin: 7% 5%;
+    width: 100%;
+}
+
+.row-three input[type="text"]{
+    width: 100%;
+}
